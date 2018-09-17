@@ -1,0 +1,20 @@
+{
+  "title": "Quiz test!!!",
+  "mainPage": {
+    "title": "Bonjour ceci est un titre",
+    "img": "http://jolabistouille.j.o.pic.centerblog.net/45777f7a.png",
+    "subtitle": "Mini title",
+    "description": "Blablabla sa va etre super amusant"
+  },
+  "questions": [
+    {
+      "title": "Question 1",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pictogram_voting_question.svg/220px-Pictogram_voting_question.svg.png",
+      "text": "Il etait une fois un text. Et une question?",
+      "response": "123"
+    }
+  ],
+  "endPage": {
+    "title": "Fini"
+  }
+}
