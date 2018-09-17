@@ -2,7 +2,7 @@
   "title": "Quiz test!!!",
   "mainPage": {
     "title": "Bonjour ceci est un titre",
-    "img": "http://jolabistouille.j.o.pic.centerblog.net/45777f7a.png",
+    "image": "http://jolabistouille.j.o.pic.centerblog.net/45777f7a.png",
     "subtitle": "Mini title",
     "description": "Blablabla sa va etre super amusant"
   },
@@ -12,9 +12,23 @@
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pictogram_voting_question.svg/220px-Pictogram_voting_question.svg.png",
       "text": "Il etait une fois un text. Et une question?",
       "response": "123"
+    },
+    {
+      "title": "Question 2",
+      "image": "https://openclipart.org/image/2400px/svg_to_png/167881/anotherhand.png",
+      "text": "Il etait une fois un text. Et une question?",
+      "response": "123"
     }
   ],
   "endPage": {
     "title": "Fini"
+  },
+  "theme": {
+    "primary": "#ff9800",
+    "primaryLight": "#ffc947",
+    "primaryDark": "#c66900",
+    "secondary": "#78909c",
+    "secondaryLight": "#a7c0cd",
+    "secondaryDark": "#4b636e"
   }
 }

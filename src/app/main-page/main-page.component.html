@@ -1,1 +1,24 @@
-<mat-toolbar>{{mainPage.title}}</mat-toolbar>
+<mat-toolbar [style.background-color]="theme.primary">{{mainPage.title}}</mat-toolbar>
+
+
+<mat-grid-list cols="1" rowHeight="100px">
+  <mat-grid-tile class="subtitle" [rowspan]="1" [style.background-color]="theme.primaryLight">
+    <h1>{{mainPage.subtitle}}</h1>
+  </mat-grid-tile>
+  <mat-grid-tile [rowspan]="2">
+    {{mainPage.description}}
+  </mat-grid-tile>
+  <mat-grid-tile [rowspan]="2">
+    <img [src]="mainPage.image" height="200px"><br>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+<footer>
+  <div class="button">
+    <a mat-raised-button [style.background-color]="theme.secondaryLight" routerLink="questions/0">Let's go !!!</a>
+  </div>
+  <div class="line" [style.background-color]="theme.primaryLight">
+
+  </div>
+</footer>

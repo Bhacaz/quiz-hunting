@@ -1,3 +1,28 @@
-<p>
-  question works!
-</p>
+<mat-toolbar [style.background-color]="theme.primary">{{question.title}}</mat-toolbar>
+<mat-progress-bar mode="determinate" [value]="progression" color="warn"></mat-progress-bar>
+
+
+<mat-grid-list cols="1" rowHeight="150px">
+  <mat-grid-tile class="subtitle" [rowspan]="1" [style.background-color]="theme.primaryLight">
+    <h4>{{question.text}}</h4>
+  </mat-grid-tile>
+  <mat-grid-tile [rowspan]="2">
+    <img [src]="question.image" height="200px"><br>
+  </mat-grid-tile>
+</mat-grid-list>
+
+
+<footer>
+  <div class="button">
+    <form class="example-form">
+      <mat-form-field>
+        <input matInput value="Sushi">
+      </mat-form-field>
+      <button mat-raised-button [style.background-color]="theme.secondaryLight" (click)="nextQuestion()">Let's go !!!</button>
+    </form>
+  </div>
+
+  <div class="line" [style.background-color]="theme.primaryLight">
+
+  </div>
+</footer>

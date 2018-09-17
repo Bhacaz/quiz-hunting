@@ -9,12 +9,16 @@ import {TemplateService} from '../template.service';
 export class MainPageComponent implements OnInit {
 
   mainPage: any = {};
+  theme: any = {};
 
   constructor(private templateService: TemplateService) { }
 
   ngOnInit() {
     this.templateService.getTemplate()
-      .subscribe(res => this.mainPage = res.mainPage);
+      .subscribe(res => {
+        this.mainPage = res.mainPage;
+        this.theme = res.theme;
+      });
   }
 
 }

@@ -8,7 +8,7 @@ import { QuestionComponent } from './question/question.component';
 import {appRoutes} from './app.routes';
 import {RouterModule} from '@angular/router';
 import {TemplateService} from './template.service';
-import {MatToolbarModule} from '@angular/material';
+import {MatButtonModule, MatGridListModule, MatInputModule, MatProgressBarModule, MatToolbarModule} from '@angular/material';
 import {HttpModule} from '@angular/http';
 
 @NgModule({
@@ -22,7 +22,11 @@ import {HttpModule} from '@angular/http';
     BrowserAnimationsModule,
     RouterModule.forRoot(appRoutes),
     MatToolbarModule,
-    HttpModule
+    HttpModule,
+    MatGridListModule,
+    MatButtonModule,
+    MatProgressBarModule,
+    MatInputModule
   ],
   providers: [TemplateService],
   bootstrap: [AppComponent]
