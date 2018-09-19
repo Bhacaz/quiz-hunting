@@ -2,12 +2,12 @@
 <mat-progress-bar mode="determinate" [value]="progression" color="warn"></mat-progress-bar>
 
 
-<mat-grid-list cols="1" rowHeight="150px">
+<mat-grid-list cols="1" rowHeight="100px">
   <mat-grid-tile class="subtitle" [rowspan]="1" [style.background-color]="theme.primaryLight">
     <h4>{{question.text}}</h4>
   </mat-grid-tile>
   <mat-grid-tile [rowspan]="2">
-    <img [src]="question.image" height="200px"><br>
+    <img [src]="question.image" height="100px"><br>
   </mat-grid-tile>
 </mat-grid-list>
 
@@ -16,10 +16,10 @@
   <div class="button">
     <form class="example-form">
       <mat-form-field>
-        <input matInput value="Sushi">
+        <input matInput type="text" [(ngModel)]="inputAnswer" name="''">
       </mat-form-field>
-      <button mat-raised-button [style.background-color]="theme.secondaryLight" (click)="nextQuestion()">Let's go !!!</button>
     </form>
+    <button mat-raised-button [style.background-color]="theme.secondaryLight" (click)="nextQuestion()">Let's go !!!</button>
   </div>
 
   <div class="line" [style.background-color]="theme.primaryLight">

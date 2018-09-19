@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import {ActivatedRoute, Router} from '@angular/router';
 import {TemplateService} from '../template.service';
+import {MatSnackBar} from "@angular/material";
 
 @Component({
   selector: 'app-question',
@@ -9,32 +9,46 @@ import {TemplateService} from '../template.service';
 })
 export class QuestionComponent implements OnInit {
 
-  questionIndex: number;
+  questionIndex = 0;
+  questions: any = {};
   question: any = {};
   theme: any = {};
-  progression: number = 0;
+  progression = 0;
+  inputAnswer: string = '';
 
-  constructor(private route: ActivatedRoute,
-              private templateService: TemplateService,
-              private router: Router) { }
+  constructor(private templateService: TemplateService,
+              public snackBar: MatSnackBar) { }
 
   ngOnInit() {
-    this.questionIndex = +this.route.snapshot.params.index;
-
     this.templateService.getTemplate()
       .subscribe(res => {
-        this.question = res.questions[0];
-        this.progression = (this.questionIndex + 1 / res.questions.length) * 100;
+        this.questions = res.questions;
+        this.question = this.questions[this.questionIndex];
+        this.progress();
         this.theme = res.theme;
         console.log(this.question);
       });
   }
 
   nextQuestion() {
-    console.log('hello');
-    const newContext = this.questionIndex + 1;
-    console.log(newContext);
-    this.router.navigate(['questions', newContext]);
+    console.log(this.inputAnswer);
+    if(this.question.answer === this.inputAnswer) {
+      this.questionIndex += 1;
+      this.progress();
+      this.question = this.questions[this.questionIndex];
+    } else {
+      this.openSnackBar();
+    }
+  }
+
+  progress() {
+    this.progression = (((this.questionIndex + 1) / this.questions.length) * 100) - 10;
+  }
+
+  openSnackBar() {
+    this.snackBar.open('Réessayer', null,{
+      duration: 1500,
+    });
   }
 
 }

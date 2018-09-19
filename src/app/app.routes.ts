@@ -4,6 +4,6 @@ import {QuestionComponent} from './question/question.component';
 
 export const appRoutes: Routes = [
   { path: '', component: MainPageComponent },
-  { path: 'questions/:index', component: QuestionComponent },
+  { path: 'questions', component: QuestionComponent },
   { path: '**', redirectTo: '' },
 ];

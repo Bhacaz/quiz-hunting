@@ -8,8 +8,12 @@ import { QuestionComponent } from './question/question.component';
 import {appRoutes} from './app.routes';
 import {RouterModule} from '@angular/router';
 import {TemplateService} from './template.service';
-import {MatButtonModule, MatGridListModule, MatInputModule, MatProgressBarModule, MatToolbarModule} from '@angular/material';
+import {
+  MatButtonModule, MatGridListModule, MatInputModule, MatProgressBarModule, MatSnackBarModule,
+  MatToolbarModule
+} from '@angular/material';
 import {HttpModule} from '@angular/http';
+import {FormsModule} from "@angular/forms";
 
 @NgModule({
   declarations: [
@@ -26,7 +30,9 @@ import {HttpModule} from '@angular/http';
     MatGridListModule,
     MatButtonModule,
     MatProgressBarModule,
-    MatInputModule
+    MatInputModule,
+    MatSnackBarModule,
+    FormsModule
   ],
   providers: [TemplateService],
   bootstrap: [AppComponent]

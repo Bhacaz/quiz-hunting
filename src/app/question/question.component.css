@@ -4,15 +4,17 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  height: 190px;
+  height: 173px;
 }
 
 .line {
-  height: 25px;
+  height: 48px;
 }
 
 .button {
   height: 125px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+}
+
+mat-form-field {
+  width: 248px;
 }

@@ -11,13 +11,13 @@
       "title": "Question 1",
       "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pictogram_voting_question.svg/220px-Pictogram_voting_question.svg.png",
       "text": "Il etait une fois un text. Et une question?",
-      "response": "123"
+      "answer": "123"
     },
     {
       "title": "Question 2",
       "image": "https://openclipart.org/image/2400px/svg_to_png/167881/anotherhand.png",
       "text": "Il etait une fois un text. Et une question?",
-      "response": "123"
+      "answer": "123"
     }
   ],
   "endPage": {
