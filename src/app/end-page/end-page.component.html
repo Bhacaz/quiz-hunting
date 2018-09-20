@@ -1,0 +1,18 @@
+<mat-toolbar [style.background-color]="theme.primary">{{endPage.title}}</mat-toolbar>
+
+<mat-grid-list cols="1" rowHeight="75px">
+  <mat-grid-tile [rowspan]="1">
+  </mat-grid-tile>
+  <mat-grid-tile [rowspan]="2">
+    <img [src]="endPage.image" height="150px"><br>
+  </mat-grid-tile>
+  <mat-grid-tile [rowspan]="2">
+    {{endPage.text}}
+  </mat-grid-tile>
+</mat-grid-list>
+
+<footer>
+  <div class="line" [style.background-color]="theme.primaryLight">
+
+  </div>
+</footer>

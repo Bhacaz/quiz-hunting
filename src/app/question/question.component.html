@@ -13,16 +13,8 @@
 
 
 <footer>
-  <div class="button">
-    <form class="example-form">
-      <mat-form-field>
-        <input matInput type="text" [(ngModel)]="inputAnswer" name="''">
-      </mat-form-field>
-    </form>
-    <button mat-raised-button [style.background-color]="theme.secondaryLight" (click)="nextQuestion()">Let's go !!!</button>
+  <div>
+    <button mat-raised-button [style.background-color]="theme.secondaryLight" (click)="openDialog()">Répondre</button>
   </div>
-
-  <div class="line" [style.background-color]="theme.primaryLight">
-
-  </div>
+  <div class="line" [style.background-color]="theme.primaryLight"></div>
 </footer>

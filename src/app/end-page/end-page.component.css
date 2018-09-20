@@ -3,11 +3,15 @@ footer {
   left: 0;
   bottom: 0;
   width: 100%;
+  color: white;
   text-align: center;
-  height: 86px;
+  height: 48px;
 }
 
 .line {
-  margin-top: 10px;
   height: 48px;
+}
+
+img {
+  border-radius: 20px;
 }

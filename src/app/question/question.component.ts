@@ -1,6 +1,11 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Inject, OnInit} from '@angular/core';
 import {TemplateService} from '../template.service';
-import {MatSnackBar} from "@angular/material";
+import {MAT_DIALOG_DATA, MatDialog, MatDialogRef, MatSnackBar} from "@angular/material";
+import {Router} from "@angular/router";
+
+export interface DialogData {
+  answerInput: string;
+}
 
 @Component({
   selector: 'app-question',
@@ -17,7 +22,9 @@ export class QuestionComponent implements OnInit {
   inputAnswer: string = '';
 
   constructor(private templateService: TemplateService,
-              public snackBar: MatSnackBar) { }
+              public snackBar: MatSnackBar,
+              public dialog: MatDialog,
+              private router: Router) { }
 
   ngOnInit() {
     this.templateService.getTemplate()
@@ -31,12 +38,16 @@ export class QuestionComponent implements OnInit {
   }
 
   nextQuestion() {
-    console.log(this.inputAnswer);
-    if(this.question.answer === this.inputAnswer) {
+    if (this.question.answer === this.inputAnswer) {
       this.questionIndex += 1;
+      if (this.questionIndex === this.questions.length) {
+        this.router.navigate([`end-page`]);
+      }
       this.progress();
       this.question = this.questions[this.questionIndex];
-    } else {
+      this.inputAnswer = '';
+
+    } else if (this.inputAnswer) {
       this.openSnackBar();
     }
   }
@@ -49,6 +60,35 @@ export class QuestionComponent implements OnInit {
     this.snackBar.open('Réessayer', null,{
       duration: 1500,
     });
+  }
+
+  openDialog(): void {
+    const dialogRef = this.dialog.open(QuestionDialog, {
+      width: '250px',
+      data: {inputAnswer: this.inputAnswer},
+      autoFocus: true
+    });
+
+    dialogRef.afterClosed().subscribe(result => {
+      this.inputAnswer = result;
+      this.nextQuestion();
+    });
+  }
+
+}
+
+@Component({
+  selector: 'question-dialog-app',
+  templateUrl: 'question-dialog.html',
+})
+export class QuestionDialog {
+
+  constructor(
+    public dialogRef: MatDialogRef<QuestionDialog>,
+    @Inject(MAT_DIALOG_DATA) public data: DialogData) {}
+
+  onNoClick(): void {
+    this.dialogRef.close();
   }
 
 }

@@ -21,7 +21,9 @@
     }
   ],
   "endPage": {
-    "title": "Fini"
+    "title": "Fini",
+    "text": "Felicitation gang! Vous etes les meillieurs!!!",
+    "image": "https://i.giphy.com/media/g9582DNuQppxC/giphy.webp"
   },
   "theme": {
     "primary": "#ff9800",

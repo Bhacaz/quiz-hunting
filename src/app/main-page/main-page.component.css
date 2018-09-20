@@ -5,14 +5,14 @@ footer {
   width: 100%;
   color: white;
   text-align: center;
-  height: 100px;
+  height: 123px;
 }
 
 .line {
-  height: 25px;
+  height: 48px;
 }
 
-.button {
+.answer-input {
   padding-top: 20px;
   padding-bottom: 20px;
 }
