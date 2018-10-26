@@ -1,23 +1,35 @@
 {
-  "title": "Quiz test!!!",
+  "title": "Réfectoire hantée",
   "mainPage": {
-    "title": "Bonjour ceci est un titre",
-    "image": "http://jolabistouille.j.o.pic.centerblog.net/45777f7a.png",
-    "subtitle": "Mini title",
-    "description": "Blablabla sa va etre super amusant"
+    "title": "Inspector Gadget au réfectoire hantée",
+    "image": "https://static1.squarespace.com/static/553a8ddae4b0bd1c1a10972e/t/5a9dce11ec212d191ef4410b/1520291348722/gadget.png",
+    "subtitle": "???",
+    "description": "Les Ghostbusters on envoyé"
   },
   "questions": [
     {
-      "title": "Question 1",
-      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Pictogram_voting_question.svg/220px-Pictogram_voting_question.svg.png",
-      "text": "Il etait une fois un text. Et une question?",
-      "answer": "123"
+      "title": "Le chateau hantée",
+      "image": "https://i.ebayimg.com/images/g/UU4AAOSwCGVX62cl/s-l300.jpg",
+      "text": "À qui habitait dans le château qui porte le même prénom que le 3ème fils de Ned Stark?",
+      "answer": "dracula"
     },
     {
-      "title": "Question 2",
-      "image": "https://openclipart.org/image/2400px/svg_to_png/167881/anotherhand.png",
-      "text": "Il etait une fois un text. Et une question?",
-      "answer": "123"
+      "title": "Une porte!!!",
+      "image": "https://drive.google.com/uc?export=download&id=1B1f_39gYwSr00H4olLiGMZ__iprMyDXd",
+      "text": "Comment ouvrir une porte verrouillée?",
+      "answer": "alohomora"
+    },
+    {
+      "title": "Un petit jeu",
+      "image": "https://cdn3.iconfinder.com/data/icons/brain-games/1042/Board-Games.png",
+      "text": "F*CK = DISCARD <br>MARRY = GIVE <br> KILL = ???",
+      "answer": "destroy"
+    },
+    {
+      "title": "Personnalité multiple",
+      "image": "https://drive.google.com/uc?export=download&id=1UFnD24B4Zbin5JuiygonxibUjm5R2jla",
+      "text": "Un petit être versatile cache un secret quand il est fâché.",
+      "answer": "unstable"
     }
   ],
   "endPage": {

@@ -1,16 +1,14 @@
 <mat-toolbar [style.background-color]="theme.primary">{{question.title}}</mat-toolbar>
 <mat-progress-bar mode="determinate" [value]="progression" color="warn"></mat-progress-bar>
 
-
-<mat-grid-list cols="1" rowHeight="100px">
+<mat-grid-list cols="1" rowHeight="150px">
   <mat-grid-tile class="subtitle" [rowspan]="1" [style.background-color]="theme.primaryLight">
-    <h4>{{question.text}}</h4>
+    <h4 [innerHtml]="question.text"></h4>
   </mat-grid-tile>
   <mat-grid-tile [rowspan]="2">
-    <img [src]="question.image" height="100px"><br>
+    <img [src]="question.image" height="150px"><br>
   </mat-grid-tile>
 </mat-grid-list>
-
 
 <footer>
   <div>

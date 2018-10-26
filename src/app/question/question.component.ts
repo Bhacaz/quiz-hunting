@@ -3,8 +3,10 @@ import {TemplateService} from '../template.service';
 import {MAT_DIALOG_DATA, MatDialog, MatDialogRef, MatSnackBar} from "@angular/material";
 import {Router} from "@angular/router";
 
+// https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html
+
 export interface DialogData {
-  answerInput: string;
+  inputAnswer: string;
 }
 
 @Component({
@@ -38,7 +40,7 @@ export class QuestionComponent implements OnInit {
   }
 
   nextQuestion() {
-    if (this.question.answer === this.inputAnswer) {
+    if (this.question.answer === this.inputAnswer.toLowerCase()) {
       this.questionIndex += 1;
       if (this.questionIndex === this.questions.length) {
         this.router.navigate([`end-page`]);
