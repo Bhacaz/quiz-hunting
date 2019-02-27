@@ -40,7 +40,7 @@ export class QuestionComponent implements OnInit {
   }
 
   nextQuestion() {
-    if (this.question.answer === this.inputAnswer.toLowerCase()) {
+    if (this.question.answer.toLowerCase() === this.inputAnswer.toLowerCase()) {
       this.questionIndex += 1;
       if (this.questionIndex === this.questions.length) {
         this.router.navigate([`end-page`]);

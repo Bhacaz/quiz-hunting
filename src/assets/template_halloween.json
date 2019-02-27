@@ -1,0 +1,121 @@
+{
+  "title": "Réfectoire hantée",
+  "mainPage": {
+    "title": "Réfectoire hantée",
+    "image": "http://raredelights.com/wp-content/uploads/2013/08/Halloween-2.jpg",
+    "subtitle": "Bienvenue",
+    "description": "Ceci est un quiz et une chasse au trésor qui essaye de rester sur le thème de l'hallowen! Amusez vous bien."
+  },
+  "questions": [
+    {
+      "title": "Le chateau hantée",
+      "image": "https://i.ebayimg.com/images/g/UU4AAOSwCGVX62cl/s-l300.jpg",
+      "text": "Qui habitait dans le château qui porte le même prénom que le 2ème fils de Ned Stark?",
+      "answer": "dracula"
+    },
+    {
+      "title": "Sans mot!",
+      "image": "https://arcturius.org/wp-content/uploads/2017/10/amour.jpg",
+      "text": "Comment dire je t'aime sans le prononcer?",
+      "answer": "🤟"
+    },
+    {
+      "title": "Cheese",
+      "image": "https://cdn0.iconfinder.com/data/icons/small-n-flat/24/678090-camera-512.png",
+      "text": "Qu'est ce qu'il est écrit au verso du cliché prise la journée du couronnement d’Henri Ier d’Angleterre à 10h40.",
+      "answer": "rocher"
+    },
+    {
+      "title": "Une porte!!!",
+      "image": "https://drive.google.com/uc?export=download&id=1B1f_39gYwSr00H4olLiGMZ__iprMyDXd",
+      "text": "Comment ouvrir une porte verrouillée?",
+      "answer": "alohomora"
+    },
+    {
+      "title": "Encodage",
+      "image": "https://pixfeeds.com/images/3/229698/1200-480288054-binary-number-system.jpg",
+      "text": "Compléter la séquence <br><br>U+1F648 <br>U+1F649",
+      "answer": "🙊"
+    },
+    {
+      "title": "Trouver les différences",
+      "image": "https://docs.google.com/drawings/d/e/2PACX-1vQUuDYb22l5vNiasEFlJN68u1YFqidIxJ-fcBqzXxAFFYtjvl6zuf0mc-0PMcXPw-hA97nBlTGlOczL/pub?w=960&h=720",
+      "text": "Quel est le premier mot du plat verso?",
+      "answer": "computer"
+    },
+    {
+      "title": "Un petit jeu",
+      "image": "https://cdn3.iconfinder.com/data/icons/brain-games/1042/Board-Games.png",
+      "text": "F*CK = DISCARD <br>MARRY = GIVE <br> KILL = ???",
+      "answer": "destroy"
+    },
+    {
+      "title": "Miam",
+      "image": "https://docs.google.com/drawings/d/e/2PACX-1vT8MF7aleMaNh-GEEJXbKiSUjP9QRE5Mn7eC2q-OnQu87V4tEPWxYFAjSYULbp_AmWCWAFWmtoYobmh/pub?w=960&h=720",
+      "text": "Combien de mg de NaCl contient",
+      "answer": "10"
+    },
+    {
+      "title": "Film en rafales 1/6",
+      "image": "http://www.startrek.com/uploads/assets/db_articles/90645ffc8f3350fd1bf303550781525b6d5a9982.jpg",
+      "text": "Répondre par un emoji",
+      "answer": "🖖"
+    },
+    {
+      "title": "Film en rafales 2/6",
+      "image": "https://www.tynesidecinema.co.uk/storage/app/uploads/public/59f/d6f/f31/thumb_990_768x432_0_0_crop.jpg",
+      "text": "Répondre par un emoji",
+      "answer": "🐑"
+    },
+    {
+      "title": "Film en rafales 3/6",
+      "image": "https://i.pinimg.com/originals/7b/b1/72/7bb1724fb6570254bb232d2430803013.jpg",
+      "text": "Répondre par un emoji",
+      "answer": "👻"
+    },
+    {
+      "title": "Film en rafales 4/6",
+      "image": "https://consequenceofsound.files.wordpress.com/2015/02/alien-ripley.png",
+      "text": "Répondre par un emoji",
+      "answer": "👽"
+    },
+    {
+      "title": "Film en rafales 5/6",
+      "image": "http://famousdude.com/images/danny-smith-05.jpg",
+      "text": "Répondre par un emoji",
+      "answer": "🌕"
+    },
+    {
+      "title": "Film en rafales 6/6",
+      "image": "https://storage.journaldemontreal.com/v1/dynamic_resize/sws_path/jdx-prod-images/1f6e97a6-1622-4e9a-9114-e2e69d0ec61d_ORIGINAL.jpg?quality=80&size=1200x&version=4",
+      "text": "Répondre par un emoji",
+      "answer": "🕖"
+    },
+    {
+      "title": "Harry Potter",
+      "image": "https://i.skyrock.net/9898/87929898/pics/3175807717_1_8_fnSduNFQ.jpg",
+      "text": "Qu’est ce qui est écrit là ou repose la créature de la chambre des secrets?",
+      "answer": "davidstea"
+    },
+    {
+      "title": "Du latin...",
+      "image": "http://tenazaorganics.com/wp-content/uploads/2013/08/planticon.png",
+      "text": "Voir Cucurbitaceae",
+      "answer": "orange"
+    }
+
+  ],
+  "endPage": {
+    "title": "Fini",
+    "text": "Felicitation gang! Vous êtes les meillieurs!!!",
+    "image": "https://i.giphy.com/media/g9582DNuQppxC/giphy.webp"
+  },
+  "theme": {
+    "primary": "#ff9800",
+    "primaryLight": "#ffc947",
+    "primaryDark": "#c66900",
+    "secondary": "#78909c",
+    "secondaryLight": "#a7c0cd",
+    "secondaryDark": "#4b636e"
+  }
+}
