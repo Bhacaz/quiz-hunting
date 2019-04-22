@@ -10,3 +10,10 @@ before_script:
   - npm install -g @angular/cli
 script:
 - ng build --prod --base-href https://bhacaz.github.io/quiz-hunting/
+deploy:
+  provider: pages
+  skip_cleanup: true
+  github_token: $GITHUB_TOKEN
+  local_dir: dist/quiz-hunting
+  on:
+    branch: master
