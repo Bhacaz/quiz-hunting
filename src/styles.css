@@ -10,3 +10,7 @@ body {
   min-width: 280px !important;
   border-radius: 20px !important;
 }
+
+.big-text {
+  font-size: xx-large;
+}
