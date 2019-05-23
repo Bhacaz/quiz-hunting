@@ -2,22 +2,58 @@
   "title": "Dévoilement",
   "mainPage": {
     "title": "Dévoilement bébé Bastien #2",
-    "image": "https://png.pngtree.com/element_origin_min_pic/16/11/21/b81d56f6862ba2c261d5f7f3f4483110.jpg",
+    "image": "https://i.pinimg.com/originals/e6/f5/d2/e6f5d201c7f1e458f6efd23323215962.jpg",
     "subtitle": "Garçon ou fille?",
-    "description": "Quiz du dévoilement bébé Bastien #2 👶."
+    "description": "Quiz du dévoilement bébé Bastien #2. Spécialement conçu pour Jade."
   },
   "questions": [
     {
-      "title": "Grande famille",
-      "image": "https://i.pinimg.com/originals/45/b9/04/45b9048a1ce2e200d6620c90279071a7.jpg",
-      "text": "Grand-maman Danielle en aura 8 grâce à ma naissance.",
-      "answer": "Petits-enfants"
+      "title": "Une question de son",
+      "image": "http://clipart-library.com/data_images/230074.png",
+      "text": "ɑ̃fɑ̃",
+      "answer": "enfant"
+    },
+    {
+      "title": "Code de couleur",
+      "image": "https://www.w3schools.com/colors/img_colormap.gif",
+      "text": "#FF0000 = rouge<br>#FF00FF = mauve<br>#0000FF = ?",
+      "answer": "bleu"
+    },
+    {
+      "title": "Qui suis-je?",
+      "image": "http://www.apprendrepourlavie.com/acadiepedia/files/2016/01/Sans-titre.png",
+      "text": "erèivir ed te rem ed a ne y li uae'l rus av iuq noitacrabme enu sius ej",
+      "answer": "kayak"
+    },
+    {
+      "title": "Indication",
+      "image": "https://user-images.githubusercontent.com/7858787/58218443-df227880-7cd4-11e9-83a5-98592108455e.jpg",
+      "text": "<span class=\"big-text\">⬆️ 👈 👎 ⏪ 🔽 👉</span>",
+      "answer": "couche"
+    },
+    {
+      "title": "Expression #1",
+      "image": "http://catchingfire.ca/wp-content/uploads/2016/09/question-mark-square-01.png",
+      "text": "<span class=\"big-text\">🍜 🍼 😠</span>",
+      "answer": "soupe au lait"
+    },
+    {
+      "title": "Expression #2",
+      "image": "http://catchingfire.ca/wp-content/uploads/2016/09/question-mark-square-01.png",
+      "text": "<span class=\"big-text\">💂 👗‍</span>",
+      "answer": "garde robe"
+    },
+    {
+      "title": "Enigme d'informatien 💻",
+      "image": "https://user-images.githubusercontent.com/7858787/58219711-e26c3300-7cd9-11e9-9175-0c68ebcf590e.png",
+      "text": "00001 = a<br>00101 = e",
+      "answer": "garcon"
     }
   ],
   "endPage": {
-    "title": "Ouvrez",
-    "text": "La réponse est dans la boîte!",
-    "image": "https://st2.depositphotos.com/2757500/11254/v/950/depositphotos_112541750-stock-illustration-card-with-cute-baby-in.jpg"
+    "title": "Wohoo",
+    "text": "On attend un petit garçon!!!",
+    "image": "https://i.giphy.com/media/H52IMxcGwbtja/giphy.webp"
   },
   "theme": {
     "primary": "#ffff00",
