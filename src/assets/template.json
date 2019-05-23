@@ -1,10 +1,10 @@
 {
   "title": "Dévoilement",
   "mainPage": {
-    "title": "Dévoilement bébé Bonin #2",
+    "title": "Dévoilement bébé Bastien #2",
     "image": "https://png.pngtree.com/element_origin_min_pic/16/11/21/b81d56f6862ba2c261d5f7f3f4483110.jpg",
     "subtitle": "Garçon ou fille?",
-    "description": "Quiz du dévoilement bébé bonin #2 👶."
+    "description": "Quiz du dévoilement bébé Bastien #2 👶."
   },
   "questions": [
     {
@@ -12,48 +12,6 @@
       "image": "https://i.pinimg.com/originals/45/b9/04/45b9048a1ce2e200d6620c90279071a7.jpg",
       "text": "Grand-maman Danielle en aura 8 grâce à ma naissance.",
       "answer": "Petits-enfants"
-    },
-    {
-      "title": " Maestro",
-      "image": "http://www.androidetvous.com/wp-content/uploads/2018/04/musique.jpg",
-      "text": "Je passe par ici, je passe par là, je passe ___.",
-      "answer": "partout"
-    },
-    {
-      "title": "Saison",
-      "image": "https://www.mamanpourlavie.com/uploads/images/articles.cache/2019/02/17/file_main_image_17243_1_17243_image_principale_2-190218_093403_cache_640x360.jpg",
-      "text": "16,9,19,20,5-14,5,21,6",
-      "answer": "L'été"
-    },
-    {
-      "title": "Encêtre",
-      "image": "http://s1.lemde.fr/image/2014/09/17/534x267/4488941_3_4c08_willie-le-jardinier-un-personnage-des_6dfc75783ed4a77aeb18a3cf73bf249f.png",
-      "text": "Tout comme mon grand-frère, j'aurai le sang 1/4 ___",
-      "answer": "Écossais"
-    },
-    {
-      "title": "Sommeil",
-      "image": "https://png.pngtree.com/element_origin_min_pic/00/16/05/1257347e265288f.jpg",
-      "text": "Je pourrai m'y reposer, comme Charles en ce moment.",
-      "answer": "berceau"
-    },
-    {
-      "title": "Allez voir!",
-      "image": "http://at4.com/wp-content/uploads/2018/12/ensemble-berceau-blanc-parure-gris-600x480.jpg",
-      "text": "Déplace une seule allumette pour résoudre l'équation",
-      "answer": "8-4=4"
-    },
-    {
-      "title": "Cousins",
-      "image": "https://previews.123rf.com/images/rvika/rvika1406/rvika140600034/29297634-vectorielle-amusement-enfants-dessins-anim%C3%A9s-avec-des-ballons-.jpg",
-      "text": "À compléter : O_ _ A _ E _",
-      "answer": "OGAAEEC"
-    },
-    {
-      "title": "Moi!",
-      "image": "http://www.pedagogie.ac-aix-marseille.fr/upload/docs/image/jpeg/2014-07/gourmandise.jpg",
-      "text": "Chez grand-maman Danielle, mon Papa ne repars jamais sans prendre du ___",
-      "answer": "Chocolat"
     }
   ],
   "endPage": {
@@ -62,11 +20,11 @@
     "image": "https://st2.depositphotos.com/2757500/11254/v/950/depositphotos_112541750-stock-illustration-card-with-cute-baby-in.jpg"
   },
   "theme": {
-    "primary": "#1de9b6",
-    "primaryLight": "#6effe8",
-    "primaryDark": "#00b686",
-    "secondary": "#78909c",
-    "secondaryLight": "#a7c0cd",
-    "secondaryDark": "#4b636e"
+    "primary": "#ffff00",
+    "primaryLight": "#ffff5a",
+    "primaryDark": "#c7cc00",
+    "secondary": "#ff8a65",
+    "secondaryLight": "#ffbb93",
+    "secondaryDark": "#c75b39"
   }
 }
