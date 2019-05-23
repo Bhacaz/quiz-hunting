@@ -6,14 +6,15 @@
 
 1. Modified `src/assets/template.json`
 2. Add as many questions as you want
-3. Build the app
+3. Make a Pull request
+4. Once it's merge go to [your quiz](https://bhacaz.github.io/quiz-hunting/)
 
-## Build the app
+## To developpe the app
 
 1. `npm install`
 2. Run
   - dev: `ng serve`
-  - build: `ng build --prod`
+  - go to http://localhost:4200
 
 ## Example
 
