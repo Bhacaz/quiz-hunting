@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Bhacaz/quiz-hunting.svg?branch=master)](https://travis-ci.org/Bhacaz/quiz-hunting)
+
 # QuizHunting
 
 ## Create  your own quiz
