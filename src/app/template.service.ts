@@ -7,9 +7,13 @@ export class TemplateService {
 
   constructor(private http: Http) { }
 
-  getTemplate() {
+  getTemplate(suffix: string = null) {
+    let templateUrl = './assets/template.json';
+    if (suffix) {
+      templateUrl = './assets/template_' + suffix + '.json';
+    }
     return this.http
-      .get('./assets/template.json')
+      .get(templateUrl)
       .map(res => res.json());
   }
 

@@ -1,7 +1,7 @@
 import {Component, Inject, OnInit} from '@angular/core';
 import {TemplateService} from '../template.service';
 import {MAT_DIALOG_DATA, MatDialog, MatDialogRef, MatSnackBar} from "@angular/material";
-import {Router} from "@angular/router";
+import {ActivatedRoute, Router} from '@angular/router';
 
 // https://coolsymbol.com/emojis/emoji-for-copy-and-paste.html
 
@@ -16,26 +16,34 @@ export interface DialogData {
 })
 export class QuestionComponent implements OnInit {
 
+  team: string;
   questionIndex = 0;
   questions: any = {};
   question: any = {};
   theme: any = {};
   progression = 0;
-  inputAnswer: string = '';
+  inputAnswer = '';
 
   constructor(private templateService: TemplateService,
               public snackBar: MatSnackBar,
               public dialog: MatDialog,
-              private router: Router) { }
+              private router: Router,
+              private route: ActivatedRoute) { }
 
   ngOnInit() {
-    this.templateService.getTemplate()
+    this.route.params.subscribe(params => {
+      this.questionIndex = parseInt(params.index) - 1;
+    });
+    this.route.queryParams.subscribe(params => {
+      this.team = params.team;
+    });
+
+    this.templateService.getTemplate(this.team)
       .subscribe(res => {
         this.questions = res.questions;
         this.question = this.questions[this.questionIndex];
         this.progress();
         this.theme = res.theme;
-        console.log(this.question);
       });
   }
 

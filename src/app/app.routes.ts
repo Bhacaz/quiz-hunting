@@ -5,7 +5,7 @@ import {EndPageComponent} from "./end-page/end-page.component";
 
 export const appRoutes: Routes = [
   { path: '', component: MainPageComponent },
-  { path: 'questions', component: QuestionComponent },
+  { path: 'questions/:index', component: QuestionComponent },
   { path: 'end-page', component: EndPageComponent },
   { path: '**', redirectTo: '' },
 ];
