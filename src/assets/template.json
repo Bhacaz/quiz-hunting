@@ -1,11 +1,14 @@
 {
-  "title": "Dévoilement",
+  "title": "Éléonore",
   "mainPage": {
-    "title": "Dévoilement bébé Bastien #2",
-    "image": "https://i.pinimg.com/originals/e6/f5/d2/e6f5d201c7f1e458f6efd23323215962.jpg",
-    "subtitle": "Garçon ou fille?",
-    "description": "Quiz du dévoilement bébé Bastien #2. Spécialement conçu pour Jade.",
-    "teams": ["Nord", "Sud"]
+    "title": "Chasse au trésor",
+    "image": "https://i.giphy.com/media/kEKcOWl8RMLde/giphy.webp",
+    "subtitle": "À vos téléphone",
+    "description": "Voici une série de question qui dont certaines demande au participants de se déplacer sur dans le parc de la rivière St-Charles. Choisisser une équipe pour commencer!",
+    "teams": [
+      "Nord",
+      "Sud"
+    ]
   },
   "questions": [
     {
@@ -52,16 +55,16 @@
     }
   ],
   "endPage": {
-    "title": "Wohoo",
-    "text": "On attend un petit garçon!!!",
-    "image": "https://i.giphy.com/media/H52IMxcGwbtja/giphy.webp"
+    "title": "Félicitation",
+    "text": "Bravo bien joué!",
+    "image": "https://i.giphy.com/media/DKnMqdm9i980E/giphy.webp"
   },
   "theme": {
-    "primary": "#ffff00",
-    "primaryLight": "#ffff5a",
-    "primaryDark": "#c7cc00",
-    "secondary": "#ff8a65",
-    "secondaryLight": "#ffbb93",
-    "secondaryDark": "#c75b39"
+    "primary": "#ff8a65",
+    "primaryLight": "#ffbb93",
+    "primaryDark": "#c75b39",
+    "secondary": "#90caf9",
+    "secondaryLight": "#c3fdff",
+    "secondaryDark": "#5d99c6"
   }
 }
