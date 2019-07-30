@@ -52,6 +52,8 @@ export class QuestionComponent implements OnInit {
       this.questionIndex += 1;
       if (this.questionIndex === this.questions.length) {
         this.router.navigate([`end-page`]);
+      } else {
+        this.router.navigate([`questions`, this.questionIndex + 1], { queryParams: { team: this.team } });
       }
       this.progress();
       this.question = this.questions[this.questionIndex];

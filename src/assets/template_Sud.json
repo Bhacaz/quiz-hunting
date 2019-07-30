@@ -1,67 +1,97 @@
 {
-  "title": "Dévoilement",
+  "title": "Éléonore",
   "mainPage": {
-    "title": "Dévoilement bébé Bastien #2",
-    "image": "https://i.pinimg.com/originals/e6/f5/d2/e6f5d201c7f1e458f6efd23323215962.jpg",
-    "subtitle": "Garçon ou fille?",
-    "description": "Quiz du dévoilement bébé Bastien #2. Spécialement conçu pour Jade.",
+    "title": "Activité de chasse au trésor pour les 2 ans de Éléonore",
+    "image": "https://i.giphy.com/media/kEKcOWl8RMLde/giphy.webp",
+    "subtitle": "À vos téléphone",
+    "description": "Voici une série de question qui demande au participant de se déplacer sur la rivière St-Charles. Choisisser une équipe pour commencer!",
     "teams": ["Nord", "Sud"]
   },
   "questions": [
     {
-      "title": "YEAH SUD Une question de son",
-      "image": "http://clipart-library.com/data_images/230074.png",
-      "text": "ɑ̃fɑ̃",
-      "answer": "enfant"
+      "title": "Pont de l'Aqueduc",
+      "image": "https://image.flaticon.com/icons/png/512/1/1865.png",
+      "text": "Le pont de l’Aquaduc est à combien de millimètres?<br><br><a href=\"https://goo.gl/maps/BW4p3Cpa6M9QrYu56\">46.80903720900023, 71.25547081232071</a>",
+      "answer": "25000"
     },
     {
-      "title": "Code de couleur",
-      "image": "https://www.w3schools.com/colors/img_colormap.gif",
-      "text": "#FF0000 = rouge<br>#FF00FF = mauve<br>#0000FF = ?",
-      "answer": "bleu"
+      "title": "Algèbre",
+      "image": "https://png.pngtree.com/svg/20170828/f4fc5ba89d.svg",
+      "text": "Un numéro de téléphone peut aussi ressembler à une équation mathématique.<br><br><a href=\"https://www.google.com/maps/place/46.80982429820233+-71.25405929982662\">46.80982429820233, -71.25405929982662</a>",
+      "answer": "-7906"
     },
     {
-      "title": "Qui suis-je?",
-      "image": "http://www.apprendrepourlavie.com/acadiepedia/files/2016/01/Sans-titre.png",
-      "text": "erèivir ed te rem ed a ne y li uae'l rus av iuq noitacrabme enu sius ej",
-      "answer": "kayak"
+      "title": "In nomine Patris et Filii et Spiritus Sancti",
+      "image": "https://bit.ly/2OBmJ7Y",
+      "text": "Quod genus arboris, ego? <br><br><a href=\"https://www.google.com/maps/place/46.81021508485954+-71.25230647623539\">46.80982429820233, -71.25405929982662</a>",
+      "answer": "Fraxinus"
     },
     {
-      "title": "Indication",
-      "image": "https://user-images.githubusercontent.com/7858787/58218443-df227880-7cd4-11e9-83a5-98592108455e.jpg",
-      "text": "<span class=\"big-text\">⬆️ 👈 👎 ⏪ 🔽 👉</span>",
-      "answer": "couche"
+      "title": "Corrélation",
+      "image": "https://bit.ly/2MqPdyS",
+      "text": "Qu'ont en commun la royauté anglaise et les parcs longeant la rivière St-Charles?",
+      "answer": "Victoria"
     },
     {
-      "title": "Expression #1",
+      "title": "Mot caché",
+      "image": "https://user-images.githubusercontent.com/7858787/62066030-39bce100-b1fe-11e9-8850-0240f4652ff0.png",
+      "text": "<a href=\"https://www.google.com/maps/place/46.812251581232175+-71.25068072229624\">46.812251581232175, -71.25068072229624</a>",
+      "answer": "Secteur"
+    },
+    {
+      "title": "Du Sud vers le Nord",
       "image": "http://catchingfire.ca/wp-content/uploads/2016/09/question-mark-square-01.png",
-      "text": "<span class=\"big-text\">🍜 🍼 😠</span>",
-      "answer": "soupe au lait"
+      "text": "Je traverse la rivière du Nord au Sud et ma somme est 19. Qui suis-je?",
+      "answer": "973"
     },
     {
-      "title": "Expression #2",
-      "image": "http://catchingfire.ca/wp-content/uploads/2016/09/question-mark-square-01.png",
-      "text": "<span class=\"big-text\">💂 👗‍</span>",
-      "answer": "garde robe"
+      "title": "Que la lumière soit!",
+      "image": "https://image.flaticon.com/icons/svg/68/68587.svg",
+      "text": "Combien de lumière il y a sur le pont?<br><br><a href=\"https://www.google.com/maps/place/46.813573713706084+-71.25082556158304\">46.813573713706084, -71.25082556158304</a>",
+      "answer": "6"
     },
     {
-      "title": "Enigme d'informatien 💻",
-      "image": "https://user-images.githubusercontent.com/7858787/58219711-e26c3300-7cd9-11e9-9175-0c68ebcf590e.png",
-      "text": "00001 = a<br>00101 = e",
-      "answer": "garçon"
+      "title": "Dessin animé",
+      "image": "https://image.flaticon.com/icons/png/512/49/49672.png",
+      "text": "Je suis jaune et écossais. Qui suis-je? <br><br><a href=\"https://goo.gl/maps/yaJ9axyE4u1KEgsk7\">46.812957, -71.2517609</a>",
+      "answer": "Willie"
+    },
+    {
+      "title": "Des quoi? 👀",
+      "image": "https://bit.ly/2SOqHIT",
+      "text": "Combien de \"Danilo\"?<br><br><a href=\"https://www.google.com/maps/place/46.810720372617034+-71.25336058437824>\"46.810720372617034, -71.25336058437824</a>",
+      "answer": "13"
+    },
+    {
+      "title": "🚑",
+      "image": "https://bit.ly/1WIneqD",
+      "text": "Je suis un pont de la rivière St-Charles et je sauve des vie?",
+      "answer": "Croix-rouge"
+    },
+    {
+      "title": "🔒❤️",
+      "image": "https://image.flaticon.com/icons/png/512/45/45315.png",
+      "text": "La marque du cadenas solitaire.<br><br><a href=\"https://www.google.com/maps/place/46.81002692017645+-71.25492364168167\">46.81002692017645, -71.25492364168167</a>",
+      "answer": "Fortress"
+    },
+    {
+      "title": "💪️",
+      "image": "https://bit.ly/2KpuZTB",
+      "text": "J’ai 91 ans, je mesure 2,75 mètre et je bench 6 tonnes.<br><br><a href=\"https://goo.gl/maps/HzXGM5MfjWSeUnzj8\">46.8091111, -71.2563471</a>",
+      "answer": "Scott"
     }
   ],
   "endPage": {
-    "title": "Wohoo",
-    "text": "On attend un petit garçon!!!",
-    "image": "https://i.giphy.com/media/H52IMxcGwbtja/giphy.webp"
+    "title": "Félicitation",
+    "text": "Bravo bien joué!",
+    "image": "https://i.giphy.com/media/DKnMqdm9i980E/giphy.webp"
   },
   "theme": {
-    "primary": "#ffff00",
-    "primaryLight": "#ffff5a",
-    "primaryDark": "#c7cc00",
-    "secondary": "#ff8a65",
-    "secondaryLight": "#ffbb93",
-    "secondaryDark": "#c75b39"
+    "primary": "#ff8a65",
+    "primaryLight": "#ffbb93",
+    "primaryDark": "#c75b39",
+    "secondary": "#90caf9",
+    "secondaryLight": "#c3fdff",
+    "secondaryDark": "#5d99c6"
   }
 }
